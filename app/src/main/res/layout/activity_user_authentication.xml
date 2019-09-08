@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/parent_layout"
+    android:orientation="vertical"
+    tools:context=".UserAuthenticationActivity">
+
+    <!--View 1-->
+<LinearLayout
+    android:visibility="visible"
+    android:id="@+id/startVerfLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/phonenumber_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.hbb20.CountryCodePicker
+            app:ccp_textSize="20sp"
+            app:ccp_contentColor="@color/colorWhite"
+            app:ccp_defaultNameCode="TZ"
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/phonenumber"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:hint="Nambari yako ya simu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/verfInfo"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:text="@string/phone_verification_about_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_flat_red_selector"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="startVerification"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_create_account"
+       />
+
+</LinearLayout>
+
+    <!--view 2-->
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/code_verf_layout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/phone_verif_code_info"
+            android:layout_marginTop="70dp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="25sp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/phone_verf_code_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="20dp"
+            android:visibility="visible"
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jaza kodi"
+            android:inputType="number"
+            />
+
+        <Button
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/btn_flat_red_selector"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:onClick="VerfyNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Ingia kwenye Akaunti"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/code" />
+
+        <TextView
+            android:id="@+id/phone_verif_time"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="2dp"
+            android:text="@string/time_verf_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/phone_code_resend"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/phone_verf_resend_code_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/wrong_number"
+            android:layout_margin="20dp"
+            android:text="Nmekosea namba? INGIZA UPYA"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
