@@ -2,7 +2,7 @@ package com.blogspot.waptell.tafakari;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 public class SettingFragment extends PreferenceFragment {
     @Override

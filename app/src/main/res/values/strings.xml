@@ -5,15 +5,15 @@
 
     <!--Admob String-->
     <!--test-->
-    <!--<string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
-    <!--<string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
-    <!--<string name="abmob_interstial_id">ca-app-pub-3940256099942544/1033173712</string>-->
-    <!--<string name="abmob_videobanner_id">ca-app-pub-3940256099942544/5224354917</string>-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="abmob_interstial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="abmob_videobanner_id">ca-app-pub-3940256099942544/5224354917</string>
 
     <!--real-->
-    <string name="admob_app_id">ca-app-pub-8792412382870333~7252295525</string>
-    <string name="admob_banner_id">ca-app-pub-8792412382870333/2266017564</string>
-    <string name="abmob_interstial_id">ca-app-pub-8792412382870333/1240834211</string>
+<!--    <string name="admob_app_id">ca-app-pub-8792412382870333~7252295525</string>-->
+<!--    <string name="admob_banner_id">ca-app-pub-8792412382870333/2266017564</string>-->
+<!--    <string name="abmob_interstial_id">ca-app-pub-8792412382870333/1240834211</string>-->
 
 
     <string name="somo">MASOMO YA MISA, JANUARI 29, 2019 JUMANNE, JUMA LA 3 LA MWAKA SOMO 1 Ebr. 10:1 – 10 Kwa kuwa torati ni kivuli cha mema yatakayokuwa, wala si sura yenyewe ya mambo hayo kwa dhabihu zile zile wanazozitoa kila mwaka daima haiwezi wakati wowote kuwakamilisha wakaribiao. Kama ndivyo, je! Dhabihu hazingekoma kutolewa; kwa maana waabuduo, wakiisha kusafishwa mara moja, wasingejiona tena kuwa na dhambi? Lakini katika dhabihu hizo liko kumbukumbu la dhambi kila mwaka. Maana haiwezekani damu ya mafahali na mbuzi kuondoa dhambi. Kwa hiyo ajapo ulimwenguni, asema. Dhabihu na toleo hukutaka, lakini mwili uliwekea tayari; sadaka za kuteketezwa na sadaka za dhambi hukupendezwa nazo; ndipo niliposema, Tazama, nimekuja (katika gombo la chuo nimeandikiwa) niyafanye mapenzi yako, Mungu. Hapo juu asemapo, Dhabihu na matoleo na sadaka za kuteketezwa na hizo za dhambi hukuzitaka, wala hukupendwazwa nazo (zitolewazo kama ilivyoamuru torati), ndipo aliposema, Tazama, nimekuja niyafanye mapenzi yako. Aondoa la kwanza, ili kusudi alisimamishe la pili. Katika mapenzi hayo tumepata utakaso, kwa kutolewa mwili wa Yesu Kristo mara moja tu. Neno la Bwana… Tumshukuru Mungu. WIMBO WA KATIKATI Zab. 40:1, 3, 6 – 7, 10 (K) 7, 8 (K) Ndipo niliposema, Tazama, nimekuja, kuyafanya mapenzi yako. Nalimngoja Bwana kwa saburi, Akaniinamia akakisikia kilio changu. Akatia wimbo mpya kinywani mwangu Ndio sifa zake Mungu wetu. (K) Dhabihu na matoleo hukupendezwa nazo, Masikio yangu umeyazibua, Kafara na sadaka za dhambi hukuzitaka. Ndipo niliposema, Tazama nimekuja. (K) Nimehubiri habari za haki Katika kusanyiko kubwa, Sikuizuia midomo yangu; Ee Bwana, unajua. (K) Sikusitiri haki yako moyoni mwangu, Nimetangaza uaminifu wako na wokovu wako. Sikuficha fadhili zako wala kweli yako Katika kusanyiko kubwa. (K) SHANGILIO Yak. 1:21 Aleluya, aleluya, Pokeeni kwa upole neno la Mungu lililopandwa ndani, liwezalo kuziokoa roho zenu. Aleluya. INJILI Lk. 10:1–9 Bwana aliweka wengine, sabini, akawatuma wawili wawili wamtangulie kwenda kila mji na kila mahali alipokusudia kwenda mwenyewe. Akawaambia, Mavuno ni mengi, lakini watenda kazi ni wachache; basi mwombeni Bwana wa mavuno apeleke watenda kazi katika mavuno yake. Enendeni; angalieni, nawatuma kama wana-kondoo kati ya mbwa-mwitu. Msichukue mfuko, wala mkoba, wala viatu; wala msimwamkie mtu njiani. Na nyumba yoyote mtakayoingia, semeni kwanza, Amani iwemo nyumbani humu; na akiwamo mwana wa amani, amani yenu itamkalia; la, hayumo, amani yenu itarudi kwenu. Basi, kaeni katika nyumba iyo hiyo, mkila na kunywa vya kwao; maana, mtenda kazi amestahili kupewa ujira wake. Msihame-hame kutoka nyumba hii kwenda nyumba hii. Na mji wowote mtakaouingia, wakiwakaribisha, vileni vyakula viwekwavyo mbele yenu; wapozeni wagonjwa waliomo, waambieni, Ufalme wa Mungu umewakaribia. Neno la Bwana… Sifa kwako Ee Kristo. Copyright © 2019,</string>
@@ -34,6 +34,6 @@
     <string name="permission_storage_desc">Storage Idhini inahitajika ili kuweza kuchagu picha kwa ajili ya profile</string>
     <string name="developer_name">Chami Epimark</string>
     <string name="developer_phone1">+255658 713 561 </string>
-    <string name="developer_phone2">+255759 366 129</string>
+    <string name="developer_phone2">+255766 073 149</string>
 
 </resources>

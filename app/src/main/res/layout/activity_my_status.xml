@@ -8,7 +8,8 @@
     tools:context=".MyStatusActivity">
 
     <include layout="@layout/toolbar_layout"/>
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
+        tools:listitem="@layout/subject_list"
         android:id="@+id/myStatusRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

@@ -1,14 +1,14 @@
 package com.blogspot.waptell.tafakari;
 
 import android.app.Dialog;
-import android.arch.persistence.room.Room;
+import androidx.room.Room;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
@@ -158,10 +158,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, SettingActivity.class));
                 return true;
 
-//            case R.id.action_post_subject:
-//               // Toast.makeText(this, "start posting", Toast.LENGTH_SHORT).show();
-//                postingSubject();
-//                return true;
+            case R.id.action_post_subject:
+               // Toast.makeText(this, "start posting", Toast.LENGTH_SHORT).show();
+                postingSubject();
+                return true;
 
             case R.id.action_about:
                 // Toast.makeText(this, "start posting", Toast.LENGTH_SHORT).show();

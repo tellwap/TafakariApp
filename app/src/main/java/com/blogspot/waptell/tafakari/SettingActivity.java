@@ -1,10 +1,11 @@
 package com.blogspot.waptell.tafakari;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.reward.RewardItem;
 import com.google.android.gms.ads.reward.RewardedVideoAd;
@@ -83,19 +84,19 @@ public class SettingActivity extends AppCompatActivity {
                 Log.e(TAG, "onRewardedVideoCompleted: " );
             }
         });
-      //  loadRewardedVideoAd();
+        loadRewardedVideoAd();
 
     }
     private void loadRewardedVideoAd() {
-//        mRewardedVideoAd.loadAd(getResources().getString(R.string.abmob_videobanner_id),
-//                new AdRequest.Builder().build());
+        mRewardedVideoAd.loadAd(getResources().getString(R.string.abmob_videobanner_id),
+                new AdRequest.Builder().build());
     }
     @Override
     public void onBackPressed() {
         super.onBackPressed();
 
         if (mRewardedVideoAd.isLoaded()) {
-          //  mRewardedVideoAd.show();
+            mRewardedVideoAd.show();
         }
     }
 }

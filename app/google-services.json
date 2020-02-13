@@ -15,6 +15,30 @@
       },
       "oauth_client": [
         {
+          "client_id": "660678431474-l47jhhlhmbafa8q4qjeka4u88jln27oa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.waptell.tafakari",
+            "certificate_hash": "9db6ba5d62d14f562dafbf751c881e9141cf51bd"
+          }
+        },
+        {
+          "client_id": "660678431474-70m4d4apq6fi9so493go4q3s0ltd349q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.waptell.tafakari",
+            "certificate_hash": "74b7d74a0aa0cabba8d14c183ba9fbec013235bf"
+          }
+        },
+        {
+          "client_id": "660678431474-0m5nqeevd72cuvdinru09tkba6mudhg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.waptell.tafakari",
+            "certificate_hash": "0cdd8f4b87093d6c84180780e7c2392fa49e0161"
+          }
+        },
+        {
           "client_id": "660678431474-62ku6iefem0cs6lgqnlq9ecqh794no3f.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -33,20 +57,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "660678431474-lnnlbcqdslaqvv1ku6oq282lriifvkf4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     },
@@ -77,20 +94,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "660678431474-lnnlbcqdslaqvv1ku6oq282lriifvkf4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }
